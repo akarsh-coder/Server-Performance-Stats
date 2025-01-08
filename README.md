@@ -28,26 +28,33 @@ The script provides the following features:
 
 Below is an example of the output:
 ```bash
-===== CPU USAGE =====
-Total CPU usage: 30%
+=== Server Performance Stats ===
+=== Total CPU Usage ===
+CPU Usage: 100%
 
-===== RAM USAGE =====
-Total RAM usage: 1024MB of 4096MB
+=== Total Memory Usage ===
+Used: 1276MB (66.05%), Free: 131MB (6.78%)
 
-===== DISK USAGE =====
-Total disk usage: 150G of 500G (30% used)
+=== Total Disk Usage ===
+Used: 5.6G (23%), Free: 19G
 
-===== TOP 5 PROCESSES BY CPU USAGE =====
-COMMAND          %CPU
-firefox          45.5
-chrome           30.2
-...
+=== Top 5 Processes by CPU Usage ===
+    PID COMMAND         %CPU
+  18409 ps               100
+  17326 sshd             0.4
+   1668 gnome-shell      0.3
+    436 vmtoolsd         0.3
+   1900 vmtoolsd         0.3
 
-===== TOP 5 PROCESSES BY RAM USAGE =====
-COMMAND          %MEM
-firefox          25.3
-chrome           20.7
-...
+=== Top 5 Processes by Memory Usage ===
+    PID COMMAND         %MEM
+   1668 gnome-shell      9.7
+   1878 gnome-software   8.4
+   2196 gsd-xsettings    2.3
+   1898 evolution-alarm  2.2
+  18354 fwupd            2.1
+
+
 
 ```
 
