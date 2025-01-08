@@ -21,7 +21,6 @@ get_disk_usage() {
     echo
 }
 
-
 # Function to get top 5 processes by CPU usage
 get_top_cpu_processes() {
     echo "=== Top 5 Processes by CPU Usage ==="
